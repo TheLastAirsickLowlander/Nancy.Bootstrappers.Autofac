@@ -9,12 +9,12 @@
     <PackageLicenseUrl>https://github.com/NancyFx/Nancy/blob/master/license.txt</PackageLicenseUrl>
     <PackageProjectUrl>http://nancyfx.org</PackageProjectUrl>
     <PackageTags>Nancy;Autofac</PackageTags>
-    <TargetFrameworks>netstandard1.6;net452</TargetFrameworks>
+    <TargetFrameworks>net472;net481</TargetFrameworks>
     <Version>2.0.0-clinteastwood</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../dependencies/Nancy/src/Nancy/Nancy.csproj" />
+    <ProjectReference Include="../../../Nancy/src/Nancy/Nancy.csproj" />
   </ItemGroup>
 
   <ItemGroup>
